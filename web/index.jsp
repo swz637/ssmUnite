@@ -47,7 +47,6 @@
 <link href="https://www.bootcss.com/p/layoutit/css/bootstrap-combined.min.css" rel="stylesheet">
 
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
-
 <script src="https://cdn.bootcdn.net/ajax/libs/cropperjs/1.5.12/cropper.js"></script>
 <link href="https://cdn.bootcdn.net/ajax/libs/cropperjs/1.5.12/cropper.css" rel="stylesheet">
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

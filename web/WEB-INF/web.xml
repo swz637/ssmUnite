@@ -18,7 +18,8 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <!--  使用spring自带的过滤器解决乱码问题-->
+    <!--  使用spring自带的过滤器解决乱码问题
+    过滤器：过滤请求的-->
     <filter>
         <filter-name>encoding</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

@@ -38,6 +38,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.22" />
         </element>
       </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
     </root>
   </artifact>
 </component>

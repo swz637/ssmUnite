@@ -4,8 +4,8 @@ import com.swz637.Bean.Book;
 import com.swz637.Bean.User;
 import com.swz637.Dao.BookMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -16,6 +16,7 @@ import java.util.List;
 public class BookServiceImpl implements BookService{
 
     @Autowired
+    @Resource
     private BookMapper bookMapper;
 
 

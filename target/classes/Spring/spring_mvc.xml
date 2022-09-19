@@ -27,7 +27,7 @@
 <!--    配置拦截器-->
     <mvc:interceptors>
         <mvc:interceptor>
-<!--            拦截所有路径-->
+<!--            拦截book下所有路径-->
             <mvc:mapping path="/book/**"/>
             <bean class="com.swz637.Interceptors.LoginInterceptor"/>
         </mvc:interceptor>

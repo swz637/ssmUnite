@@ -1,13 +1,10 @@
 package com.swz637;
 
-import com.swz637.Bean.Book;
-import com.swz637.Bean.Icon;
-import com.swz637.Service.BookService;
-import com.swz637.Service.IconService;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.web.bind.annotation.RequestParam;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
 
-import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @ author: lsq637
@@ -17,7 +14,7 @@ import java.util.Base64;
 public class Test {
 
     @org.junit.Test
-    public void test(){
-        System.out.println("fdsa");
+    public void test() {
+
     }
 }
